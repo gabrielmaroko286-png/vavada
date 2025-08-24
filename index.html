@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>szymool | Exclusive bonuses & free spins!</title>
+  <meta name="description" content="Exclusive bonuses & free spins! 5% rakeback with code SZYMOOL." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">S</div>
+        <div class="brand-text">
+          <div class="brand-name">szymool</div>
+          <div class="brand-tag">Exclusive bonuses & free spins!</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#leaderboard">Leaderboard</a>
+        <a href="#how">Jak odebrać bonus</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1><span class="nowrap">5% Rakeback</span> z kodem <span class="code">SZYMOOL</span></h1>
+        <p>Odbierz ekskluzywne bonusy i darmowe spiny już teraz. Strona w czerwonej stylistyce – szybka, lekka i gotowa na Vercel.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#how">Jak działa?</a>
+          <a class="btn btn-outline" href="#leaderboard">Zobacz ranking</a>
+        </div>
+      </div>
+      <div class="hero-bg"></div>
+    </section>
+
+    <section id="leaderboard" class="section">
+      <div class="container">
+        <h2>Who is currently in the lead?</h2>
+        <div class="table-wrap">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Player</th>
+                <th>Wagered</th>
+                <th>Prize</th>
+              </tr>
+            </thead>
+            <tbody id="lb-body">
+              <!-- Filled by script.js -->
+            </tbody>
+          </table>
+        </div>
+        <p class="muted">Dane przykładowe – zamień na swoje lub podłącz API.</p>
+      </div>
+    </section>
+
+    <section id="how" class="section alt">
+      <div class="container grid-2">
+        <div>
+          <h2>Jak odebrać bonus</h2>
+          <ol class="steps">
+            <li>Zarejestruj się u partnera.</li>
+            <li>Wpisz kod <strong class="code">SZYMOOL</strong> podczas rejestracji.</li>
+            <li>Aktywuj <strong>5% rakeback</strong> i graj odpowiedzialnie.</li>
+          </ol>
+        </div>
+        <div class="card">
+          <h3>Dlaczego my?</h3>
+          <ul class="checks">
+            <li>Szybkie wypłaty</li>
+            <li>Stałe promocje</li>
+            <li>Weryfikacja ofert</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> szymool</span>
+      <a href="mailto:contact@example.com">contact@example.com</a>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
